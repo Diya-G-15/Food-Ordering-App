@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git"
+    "url": "git+https://github.com/Diya-G-15/React.git"
   },
   "keywords": [],
   "author": "Diya",
   "license": "ISC",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/Diya-G-15/React/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/Diya-G-15/React#readme",
   "devDependencies": {
     "parcel": "^2.12.0",
     "postcss": "^8.4.33",
