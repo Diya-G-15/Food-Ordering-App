@@ -66,7 +66,7 @@ const Body = () => {
         <Carousel />
       </Suspense>
       {/* <Carousel/> */}
-      <div className="max-w-4xl mx-auto p-4">
+      <div className="max-w-4xl mx-auto p-3">
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
         <button
           onClick={handleTopRated}
@@ -95,7 +95,8 @@ const Body = () => {
       
 
       
-      <div className="flex flex-wrap gap-8 mt-8 mb-8 ml-8 mr-8 ">
+      {/* <div className="flex flex-wrap gap-8 mt-8 mb-8 ml-8 mr-8 "> */}
+      <div className=" grid grid-cols-2 md:grid-cols-4 gap-8 mt-8 mb-8 mr-8 justify-center">
         
         {filteredRestaurant.map((restaurant) => {
           {/* console.log(restaurant) */}
